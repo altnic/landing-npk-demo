@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb-base",
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "browser": true,
+		"jquery": true
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["gulpfile.babel.js", "gulp/**/*"]}],
+    "function-paren-newline": ["error", "never"],
+		"allowIndentationTabs": true,
+    "no-console": "off",
+    "comma-dangle": ["error", {
+      "arrays": "never",
+      "objects": "never",
+      "imports": "never",
+      "exports": "never",
+      "functions": "never"
+  }]
+  }
+}
