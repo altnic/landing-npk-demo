@@ -87,3 +87,16 @@ button {
 	overflow: hidden;
 	position: relative;
 }
+
+.title {
+	font-family: "KyivType Sans";
+	font-weight: 400;
+	color: #282828;
+}
+
+.block {
+	background-color: var(--color-primary);
+	border-radius: var(--border-radius-primary);
+	color: var(--light-color);
+	box-shadow: var(--box-shadow-primary);
+}

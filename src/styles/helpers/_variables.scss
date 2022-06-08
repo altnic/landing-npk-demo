@@ -12,4 +12,9 @@
 	--light-color: #fff;
 	--color-body-bg: #fed5d2;
 	--color-primary: #d8625c;
+	--color-box-shadow: rgba(0, 0, 0, 0.25);
+
+	// design
+	--box-shadow-primary: 0px 4px 4px var(--color-box-shadow);
+	--border-radius-primary: 30px;
 }
