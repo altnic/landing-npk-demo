@@ -1,35 +1,48 @@
+// Century Gothic
+
 @font-face {
-	font-family: 'PFHandbookPro';
-	src: url('../fonts/PFHandbookPro-Medium.woff2') format('woff2'),
-	url('../fonts/PFHandbookPro-Medium.woff') format('woff');
-	font-display: swap;
-	font-weight: 400;
+	font-family: "Century Gothic";
+	src: url("../fonts/CenturyGothic.woff2") format("woff2"),
+		url("../fonts/CenturyGothic.woff") format("woff");
+	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Circle';
-	src: url('../fonts/Circe-Light.woff2') format('woff2'),
-	url('../fonts/Circe-Light.woff') format('woff');
-	font-display: swap;
-	font-weight: 300;
+	font-family: "Century Gothic";
+	src: url("../fonts/CenturyGothic-Bold.woff2") format("woff2"),
+		url("../fonts/CenturyGothic-Bold.woff") format("woff");
+	font-weight: bold;
 	font-style: normal;
+	font-display: swap;
+}
+
+// KyivType Sans
+
+@font-face {
+	font-family: "KyivType Sans";
+	src: url("../fonts/KyivTypeSans-Regular.woff2") format("woff2"),
+		url("../fonts/KyivTypeSans-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Circe';
-	src: url('../fonts/Circe-Regular.woff2') format('woff2'),
-	url('../fonts/Circe-Regular.woff') format('woff');
-	font-display: swap;
-	font-weight: 400;
+	font-family: "KyivType Sans";
+	src: url("../fonts/KyivTypeSans-Medium.woff2") format("woff2"),
+		url("../fonts/KyivTypeSans-Medium.woff") format("woff");
+	font-weight: 500;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Circe';
-	src: url('../fonts/Circe-ExtraBold.woff2') format('woff2'),
-	url('../fonts/Circe-ExtraBold.woff') format('woff');
-	font-display: swap;
-	font-weight: 800;
+	font-family: "KyivType Sans";
+	src: url("../fonts/KyivTypeSans-Bold.woff2") format("woff2"),
+		url("../fonts/KyivTypeSans-Bold.woff") format("woff");
+	font-weight: bold;
 	font-style: normal;
+	font-display: swap;
 }

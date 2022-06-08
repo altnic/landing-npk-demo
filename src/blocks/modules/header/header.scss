@@ -1,0 +1,90 @@
+.header {
+	min-height: 64px;
+	// .header__content
+
+	&__content {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	// .header__logo
+
+	&__logo {
+		flex: 0 0 auto;
+	}
+
+	// .header__menu
+
+	&__menu {
+		max-width: 665px;
+		flex: 1;
+	}
+}
+
+.logo {
+	&__link {
+		border-radius: 50%;
+		transition: background-color 0.3s ease;
+	}
+	&__link:hover {
+		background-color: #fff;
+	}
+
+	&__link:not(:last-child) {
+		margin-right: 30px;
+	}
+}
+.menu {
+	// .menu__list
+
+	&__list {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	// .menu__list-item
+
+	&__list-item {
+	}
+
+	// .menu__list-link
+
+	&__list-link {
+		padding: 8px 16px;
+		border-radius: 7px;
+		font-family: Century Gothic;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 1.5;
+		color: #000;
+		white-space: nowrap;
+		transition: all 0.3s ease;
+
+		&:hover {
+			background-color: var(--color-primary);
+			color: var(--light-color);
+		}
+	}
+}
+.header__register {
+	background-color: #282828;
+	border: 2px solid transparent;
+	border-radius: 25px;
+	color: #fff;
+	font-family: "Century Gothic";
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	padding: 4px 22px;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 1.5;
+	transition: all 0.3s ease;
+}
+
+.header__register:hover {
+	background-color: transparent;
+	color: #282828;
+	border: 2px solid #282828;
+}

@@ -1,21 +1,20 @@
 <section class="welcome">
 	<div class="container">
-		<div class="picture-wrapper">
-			<picture>
-				<source srcset="./img/image.webp" type="image/webp" />
-				<source srcset="./img/image.jpg" />
-				<img src="./img/image.jpg" alt="" />
-			</picture>
+		<h1 class="welcome__title title">
+			<span>II Всероссийская</span>
+			<span>научно-практическая</span>
+			<span>конференция</span>
+		</h1>
+		<p class="welcome__subtitle">
+			<span>Актуальные врачебные практики.</span>
+			<span>Постковидный синдром</span>
+		</p>
+		<div class="starting-date">
+			<span>Пятница, 24 июня 2022</span>
+			<span>8:00 по МСК</span>
 		</div>
-
-		<div class="block-name">Фоновая картинка</div>
-		<div class="block-icons">
-			Спрайт svg моно-иконок {% include
-			'../../components/icons-group/icons-group-mono.html' %}
-		</div>
-		<div class="block-icons">
-			Спрайт svg мулти-иконок {% include
-			'../../components/icons-group/icons-group-multi.html' %}
-		</div>
+		<button class="btn btn__register">
+			{{ "Зарегистрироваться" | upper }}
+		</button>
 	</div>
 </section>
