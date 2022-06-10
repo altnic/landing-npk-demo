@@ -1,0 +1,49 @@
+.section-page {
+}
+.reference .content {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	row-gap: 35px;
+	padding-left: 70px;
+	padding-right: 50px;
+}
+.container {
+}
+.section__title {
+}
+.title {
+}
+.content {
+}
+.block {
+}
+.content__block {
+}
+.reference .block__flex {
+	padding: 0;
+}
+.reference .block__left-title {
+	margin-bottom: 0px;
+}
+.block__left-text {
+	font-weight: 400;
+	font-size: 16px;
+}
+.block__flex {
+}
+.reference .block__left {
+	flex: 1.5;
+}
+.reference .block__right {
+	flex: 1;
+}
+
+.speaker {
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: -0.02em;
+	span {
+		display: block;
+	}
+}

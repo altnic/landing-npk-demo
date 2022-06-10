@@ -1,0 +1,35 @@
+.register .content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 50px;
+}
+
+.register__link {
+	background: linear-gradient(
+		180deg,
+		rgba(216, 98, 92, 0.71) 0%,
+		rgba(216, 98, 92, 0.755167) 22.4%,
+		#d8625c 100%
+	);
+	border-radius: var(--border-radius-secondary);
+	box-shadow: var(--box-shadow-primary);
+	span {
+		font-weight: 700;
+		line-height: 1.2;
+		letter-spacing: 0.04em;
+		color: #f5f5f5;
+	}
+}
+.register__link--big {
+	padding: 30px 100px;
+	span {
+		font-size: 32px;
+	}
+}
+.register__link--small {
+	padding: 20px 25px;
+	span {
+		font-size: 20px;
+	}
+}

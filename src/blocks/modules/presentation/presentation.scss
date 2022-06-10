@@ -66,3 +66,22 @@
 .block__right .block__list {
 	margin-bottom: 25px;
 }
+
+.content__footnote {
+	color: #282828;
+	padding-left: 30px;
+}
+.content__footnote-title,
+.content__footnote .block__text {
+	color: inherit;
+}
+
+.content__footnote .block__list-item::before {
+	background-color: #282828;
+}
+.content__footnote-title {
+	margin-bottom: 7px;
+}
+.content__footnote .block__list {
+	padding-left: 20px;
+}
