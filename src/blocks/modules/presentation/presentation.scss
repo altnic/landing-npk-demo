@@ -50,13 +50,24 @@
 	padding-top: 7px;
 	padding-bottom: 7px;
 }
+
 .icon-arrow {
 	position: relative;
 	top: 1px;
+	left: 0;
 	width: 21px;
 	height: 9px;
 	fill: var(--color-primary);
 	margin-left: 5px;
+	transition: left 0.3s ease;
+}
+
+.block__left-link:hover {
+	box-shadow: var(--box-shadow-primary--inset);
+
+	.icon-arrow {
+		left: 10px;
+	}
 }
 
 .block__right {

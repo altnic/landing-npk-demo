@@ -16,6 +16,7 @@
 
 	// design
 	--box-shadow-primary: 0px 4px 4px var(--color-box-shadow);
+	--box-shadow-primary--inset: 0px 4px 4px var(--color-box-shadow) inset;
 	--border-radius-primary: 30px;
 	--border-radius-secondary: 50px;
 }

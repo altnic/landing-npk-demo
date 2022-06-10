@@ -1,7 +1,48 @@
 .welcome {
-	padding-top: 20px;
+	padding-top: 150px;
 	padding-bottom: 75px;
 	color: #282828;
+}
+.welcome__wrapper {
+	position: relative;
+	// overflow: hidden;
+}
+
+.mouse-parallax-bg,
+.mouse-parallax-fog-1,
+.mouse-parallax-fog-2,
+.mouse-parallax-fog-3,
+.mouse-parallax-fog-4 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: auto;
+	transition: all 0.1s ease;
+	z-index: -1;
+}
+.mouse-parallax-bg {
+	background-image: url("../img/covid-big.png");
+	background-position: right center;
+}
+.mouse-parallax-fog-1 {
+	background-image: url("../img/covid.png");
+	background-position: right top;
+}
+.mouse-parallax-fog-2 {
+	background-image: url("../img/covid.png");
+	background-position: 70% top;
+	background-size: 50px 50px;
+}
+.mouse-parallax-fog-3 {
+	background-image: url("../img/covid.png");
+	background-position: 65% bottom;
+	background-size: 75px 75px;
+}
+.mouse-parallax-fog-4 {
+	background-image: url("../img/covid.png");
+	background-position: 50% 65%;
+	background-size: 65px 65px;
 }
 
 .welcome__title {

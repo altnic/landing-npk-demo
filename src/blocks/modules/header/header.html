@@ -2,14 +2,24 @@
 	<div class="container">
 		<div class="header__content">
 			<div class="header__logo logo">
-				<a href="/" class="logo__link">
+				<a
+					href="https://www.sinmo.ru/"
+					class="logo__link"
+					target="_blank"
+					rel="noreferrer"
+				>
 					<picture>
 						<source srcset="./img/logo-1.webp" type="image/webp" />
 						<source srcset="./img/logo-1.png" type="image/png" />
 						<img src="./img/logo-1.png" alt="" />
 					</picture>
 				</a>
-				<a href="/" class="logo__link">
+				<a
+					href="https://www.sibobrportal.ru/"
+					class="logo__link"
+					target="_blank"
+					rel="noreferrer"
+				>
 					<picture>
 						<source srcset="./img/logo-2.webp" type="image/webp" />
 						<source srcset="./img/logo-2.png" type="image/png" />
@@ -20,20 +30,34 @@
 			<nav class="header__menu menu">
 				<ol class="menu__list">
 					<li class="menu__list-item">
-						<a class="menu__list-link" href="/">О конференции</a>
+						<a class="menu__list-link" href="#about">О конференции</a>
 					</li>
 					<li class="menu__list-item">
-						<a class="menu__list-link" href="/">Программа конференции</a>
+						<a class="menu__list-link" href="#reference"
+							>Программа конференции</a
+						>
 					</li>
 					<li class="menu__list-item">
-						<a class="menu__list-link" href="/">Контакты</a>
+						<a class="menu__list-link" href="#contacts">Контакты</a>
 					</li>
 					<li class="menu__list-item">
-						<a class="menu__list-link" href="/">Подробнее</a>
+						<a
+							class="menu__list-link"
+							href="https://drive.google.com/file/d/1AP77Tl6oWicW3mKdZjZOd_nmX8VScRvh/view"
+							target="_blank"
+							rel="noreferrer"
+							>Подробнее</a
+						>
 					</li>
 				</ol>
 			</nav>
-			<button class="btn header__register">{{ "Регистрация" | upper }}</button>
+			<a
+				class="btn header__register"
+				href="https://docs.google.com/forms/d/e/1FAIpQLScQNeh1rYwo-R7TMV9Jtt8eyb-xS6rJeKeQExK9loYoMz1ONQ/viewform"
+				target="_blank"
+				rel="noreferrer"
+				>{{ "Регистрация" | upper }}</a
+			>
 		</div>
 	</div>
 </header>

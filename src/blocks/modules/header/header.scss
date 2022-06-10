@@ -1,5 +1,19 @@
 .header {
 	min-height: 64px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 47;
+	background: rgb(254, 213, 210);
+	background: linear-gradient(
+		180deg,
+		rgba(254, 213, 210, 1) 0%,
+		rgba(254, 213, 210, 1) 85%,
+		rgba(254, 213, 210, 0) 100%
+	);
+	padding-top: 20px;
+	padding-bottom: 20px;
 	// .header__content
 
 	&__content {
